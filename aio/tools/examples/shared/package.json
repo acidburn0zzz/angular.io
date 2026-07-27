@@ -19,10 +19,10 @@
   "license": "MIT",
   "dependencies": {
     "@angular/animations": "~5.0.0",
-    "@angular/common": "~5.0.0",
-    "@angular/compiler": "~5.0.0",
+    "@angular/common": "~20.3.25",
+    "@angular/compiler": "~20.3.25",
     "@angular/compiler-cli": "~5.0.0",
-    "@angular/core": "~5.0.0",
+    "@angular/core": "~20.3.25",
     "@angular/forms": "~5.0.0",
     "@angular/http": "~5.0.0",
     "@angular/platform-browser": "~5.0.0",
