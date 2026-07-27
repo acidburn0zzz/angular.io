@@ -48,7 +48,7 @@
     "@types/selenium-webdriver": "3.0.7",
     "@types/source-map": "^0.5.1",
     "@types/systemjs": "0.19.32",
-    "angular": "1.5.0",
+    "angular": "1.8.3",
     "angular-animate": "1.5.0",
     "angular-mocks": "1.5.0",
     "base64-js": "1.2.1",
