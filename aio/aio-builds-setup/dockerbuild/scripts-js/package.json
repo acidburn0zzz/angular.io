@@ -20,7 +20,7 @@
     "test-watch": "nodemon --exec \"yarn ~~test-only\" --watch dist"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.6",
     "express": "^4.15.4",
     "jasmine": "^2.8.0",
     "jsonwebtoken": "^8.0.1",

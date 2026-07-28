@@ -235,9 +235,9 @@ angular-mocks@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.5.0.tgz#81b3e4b21098d7c545c6f0a0a97f897b26879dd9"
 
-angular@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/angular/-/angular-1.5.0.tgz#d96ee97ab6df6cfd0915accbee484d098adb74ec"
+angular@1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/angular/-/angular-1.8.3.tgz#851ad75d5163c105a7e329555ef70c90aa706894"
 
 ansi-align@^1.1.0:
   version "1.1.0"
@@ -3447,9 +3447,9 @@ http-errors@~1.3.1:
     inherits "~2.0.1"
     statuses "1"
 
-http-parser-js@>=0.4.0:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.6.tgz#195273f58704c452d671076be201329dd341dc55"
+http-parser-js@>=0.5.1:
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.5.10.tgz#b3277bd6d7ed5588e20ea73bf724fcbe44609075"
 
 http-proxy@1.16.2, http-proxy@^1.13.0:
   version "1.16.2"
@@ -6185,6 +6185,10 @@ safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@~5.1.0, s
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
+safe-buffer@>=5.1.0:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+
 sauce-connect-launcher@^0.13.0:
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/sauce-connect-launcher/-/sauce-connect-launcher-0.13.0.tgz#25d7df9da16a5ed1caa13df424cb57cb0b6d5a22"
@@ -7587,10 +7591,11 @@ webpack@1.12.9:
     webpack-core "~0.6.0"
 
 websocket-driver@>=0.5.1:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/websocket-driver/-/websocket-driver-0.7.0.tgz#0caf9d2d755d93aee049d4bdd0d3fe2cca2a24eb"
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/websocket-driver/-/websocket-driver-0.7.5.tgz#569d22764ab21f2de20af0e74b411e8ae5a0fa46"
   dependencies:
-    http-parser-js ">=0.4.0"
+    http-parser-js ">=0.5.1"
+    safe-buffer ">=5.1.0"
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
